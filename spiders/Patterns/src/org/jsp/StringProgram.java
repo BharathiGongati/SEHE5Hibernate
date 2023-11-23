@@ -1,0 +1,12 @@
+package org.jsp;
+
+public class StringProgram {
+	public static void main(String[] args) {
+		String n1="bang";
+		String n2="i am from bangalore";
+		for(int i=0;i<=n2.length();i++) {
+		
+		}
+	}
+
+}

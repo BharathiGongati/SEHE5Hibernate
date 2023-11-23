@@ -1,0 +1,24 @@
+package org.jsp;
+
+import java.util.Scanner;
+
+public class Mul {
+	public static void Mul(int n) {// 2*1=2
+		if (n == 0) {
+			return;
+		} else {
+			for (int i = 0; i <= n; i++) {
+				int a = n * 1;
+				System.out.println(n + "*" + i + a);
+			}
+		}
+
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		Mul(n);
+	}
+
+}

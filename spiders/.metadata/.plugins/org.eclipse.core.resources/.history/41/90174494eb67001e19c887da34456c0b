@@ -1,0 +1,14 @@
+package org.jsp;
+
+public class HashMapDemoclass {
+	static int[] hashmap;
+	static void createMap(int size) {
+		hashmap=new int[size];
+		for(int i=0;i<hashmap.length;i++) {
+			hashmap[i]=-1;
+		}
+		System.out.println("hashmap had been created with size :"+size+"successfully");
+	}
+	
+
+}

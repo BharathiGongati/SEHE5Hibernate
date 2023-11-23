@@ -1,0 +1,15 @@
+package org.jsp;
+
+public class StringProgram {
+	public static void main(String[] args) {
+		String n="bang";
+		String n1="i am in bangalore";
+		String[] arr=n1.split(n1);
+		for(String a:arr) {
+			int a1=a.length();
+			
+			
+		}
+	}
+
+}

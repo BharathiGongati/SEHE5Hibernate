@@ -1,0 +1,31 @@
+package org.jsp;
+
+public class HashMapDemoclass {
+	static int[] hashmap;
+	static void createMap(int size) {
+		hashmap=new int[size];
+		for(int i=0;i<hashmap.length;i++) {
+			hashmap[i]=-1;
+		}
+		System.out.println("hashmap had been created with size :"+size+" successfully");
+	}
+	static void put(int ele) {
+		int in=ele%hashmap.length;
+		if(hashmap[in]!=-1) {
+			System.out.println("key is already occupied..!");
+		}
+		else {
+			hashmap[in]=ele;
+			System.out.println(ele+" had been stored in hashmap with the key value:"+in);
+		}
+	}
+	public static void main(String[] args) {
+		createMap(5);
+		put(99);
+		put(32);
+		put(27);
+		put(33);
+		put(49);
+	}
+
+}

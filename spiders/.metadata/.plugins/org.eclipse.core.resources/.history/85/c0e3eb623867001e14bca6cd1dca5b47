@@ -1,0 +1,14 @@
+package org.jsp;
+
+import java.util.Scanner;
+
+public class Mul {
+	public static void Mul(int n) {
+		
+	}
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+	}
+
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\hp\Desktop\SEHE5\TimeStamp\src\main\java\Save.java"/>
+			<item value="C:\Users\hp\Desktop\SEHE5\User-Product-App\src\main\java\org\jsp\userproductapp\dao\ProductDao.java"/>
+			<item value="C:\Users\hp\Desktop\SEHE5\PracticeManyToMantUni\src\main\java\Save.java"/>
+			<item value="C:\Users\hp\Desktop\SEHE5\PracticeOneToManyuni\src\main\java\Fetch.java"/>
+			<item value="C:\Users\hp\Desktop\SEHE5\one-to-many-uni\src\main\java\org\jsp\onetomany\SaveQuestionAndAnswer.java"/>
+			<item value="C:\Users\hp\Desktop\SEHE5\jpademo\src\main\java\FindPersonByAge.java"/>
+			<item value="C:\Users\hp\Desktop\SEHE5\user-app"/>
+			<item value="C:\Users\hp\Desktop\SEHE5\hibernate1_demo\src\test\java\org\jsp\hibernatedemo\FetchEmployeesByName.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="org.jsp"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="FoodOrder"/>
+			<item value="Embedded"/>
+			<item value="TimeStamp"/>
+			<item value="FinalMock"/>
+			<item value="User-Product-App"/>
+			<item value="TestQuestion"/>
+			<item value="PracticeManyToManyBidire"/>
+			<item value="PracticeManyToMantUni"/>
+			<item value="PracticeMtoORotm"/>
+			<item value="PracticeManyToOneUni"/>
+			<item value="PracticeOneToManyuni"/>
+			<item value="PracticeOneToOneBid"/>
+			<item value="PracticeOneTOOneUni"/>
+			<item value="Practice"/>
+			<item value="One-to-many_many-to-one_bidire"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

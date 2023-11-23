@@ -1,0 +1,12 @@
+package entity;
+
+public class Employee {
+	private String ename;
+	private int id;
+	private long phone;
+	private double esal;
+	private int eage;
+	private String edesgn;
+	
+
+}

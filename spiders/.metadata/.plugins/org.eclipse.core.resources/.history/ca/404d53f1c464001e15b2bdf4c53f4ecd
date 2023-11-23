@@ -1,0 +1,16 @@
+package org.jsp;
+
+public class BST {
+	void insert(Node root,int data) {
+		if(root.data>data) {
+			if(root.left==null) {
+				root.left=new Node(data);
+				System.out.println(data+"had been inserted towards left of "+root.data);
+			}
+			else {
+				insert(root.left,data);
+			}
+		}
+	}
+
+}

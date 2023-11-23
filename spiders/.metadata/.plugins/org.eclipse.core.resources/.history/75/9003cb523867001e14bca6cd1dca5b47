@@ -1,0 +1,8 @@
+package org.jsp;
+
+public class Mul {
+	public static void Mul(int n) {
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package org.jsp;
+
+public class Addtwostringarrays {
+	String[] arr1= {"bittu","harshu","kavi"};
+	String[] arr2= {"kavi","chinni","chaitvik"};
+	public static void mergearrays(String[] arr1,String[] arr2) {
+		
+	}
+
+}

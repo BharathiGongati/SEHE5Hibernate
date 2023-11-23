@@ -1,0 +1,9 @@
+package org.jsp;
+
+public class Complex {
+	Complex c1=new Complex(2,3);
+	public Complex(int x,int y) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

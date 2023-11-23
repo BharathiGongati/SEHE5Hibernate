@@ -1,0 +1,49 @@
+package org.jsp;
+
+public class BST {
+	void insert(Node root, int data) {
+		if (root.data > data) {
+			if (root.left == null) {
+				root.left = new Node(data);
+				System.out.println(data + "had been inserted towards left of " + root.data);
+			} else {
+				insert(root.left, data);
+			}
+		} else {
+			if (root.right == null) {
+				root.right = new Node(data);
+				System.out.println(data + "had been inserted towards right of " + root.data);
+			} else {
+				insert(root.right, data);
+			}
+
+		}
+
+	}
+
+	void preOrder(Node root) {
+		if (root != null) {
+			System.out.print(root.data + " ");
+			preOrder(root.left);
+			preOrder(root.right);
+		}
+	}
+
+	void inOrder(Node root) {
+		if (root != null) {
+
+			inOrder(root.left);
+			System.out.print(root.data + " ");
+			inOrder(root.right);
+		}
+	}
+
+	void postOrder(Node root) {
+		if (root != null) {
+			postOrder(root.left);
+			postOrder(root.right);
+			System.out.print(root.data + " ");
+		}
+	}
+
+}

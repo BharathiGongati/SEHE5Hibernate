@@ -1,0 +1,22 @@
+package org.jsp;
+
+public class Complex {
+	int a,b;
+	Complex c1=new Complex(2,3);
+	Complex c2=new Complex(3,2);
+	public Complex(int x,int y) {
+		this.a=x;
+		this.b=y;
+		this.add(a, b);
+		this.mul(a, b)
+	}
+	static int add(int n1,int n2) {
+		return n1+n2;
+	}
+	static int mul(int n3,int n4) {
+		return n3+n4;
+	}
+	
+	
+
+}

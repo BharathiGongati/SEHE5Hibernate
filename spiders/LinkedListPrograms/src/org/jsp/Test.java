@@ -1,0 +1,19 @@
+package org.jsp;
+
+public class Test {
+	public static void main(String[] args) {
+		LinkedList l1=new LinkedList();
+		l1.insert(10);
+		l1.insert(20);
+		l1.insert(30);
+		l1.insert(40);
+//		l1.insertFront(5);
+//		l1.deleteFront();
+		l1.display();
+		l1.delete();
+		l1.display();
+		
+		
+	}
+
+}

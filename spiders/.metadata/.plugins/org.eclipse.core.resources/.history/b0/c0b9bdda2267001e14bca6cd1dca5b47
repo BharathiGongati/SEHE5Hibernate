@@ -1,0 +1,23 @@
+package org.jsp;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class Addtwostringarrays {
+	String[] arr1= {"bittu","harshu","kavi"};
+	String[] arr2= {"kavi","chinni","chaitvik"};
+	public static void mergearrays(String[] arr1,String[] arr2) {
+		Set h1=new HashSet<>();
+		h1.addAll(Arrays.asList(arr1));
+		h1.addAll(Arrays.asList(arr2));
+		Object[] arr=h1.toArray();
+		for (Object arr:arr) {
+			System.out.print(arr+" ");
+			
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+package org.jsp;
+
+public class Test {
+	public static void main(String[] args) {
+		BST b=new BST();
+//		int[] arr= {50,20,8,35,90,65,98,5,12,61,75};
+//		int root=arr[0];
+//		for(int i=0;i<=arr.length-1;i++) {
+//			b.insert(root,arr[i+1]);
+//		}
+//		b.insert(, 0);
+		Node root=new Node(50);
+	}
+
+}

@@ -1,0 +1,68 @@
+package org.jsp;
+
+public class LinkedList {
+	Node head;
+
+	void insert(int ele) {
+		Node n = new Node(ele);
+		if (head == null) {
+			head = n;
+			System.out.println("new linked list had been created with node value:" + ele);
+		} else {
+			Node temp = head;
+			while (temp.next != null) {
+				temp = temp.next;
+			}
+			temp.next = n;
+			System.out.println("new node inserted with value:" + ele);
+		}
+	}
+
+	void insertFront(int ele) {
+		Node n = new Node(ele);
+		n.next = head;
+		head = n;
+		System.out.println("new node had been inserted in front with value:" + ele);
+	}
+
+	void display() {
+		System.out.println("========Linked List===========");
+		if (head == null) {
+			System.out.println("linkedlist is empty");
+		} else {
+			Node temp = head;
+			while (temp.next != null) {
+				System.out.print(temp.data + "->");
+				temp = temp.next;
+			}
+			System.out.println(temp.data);
+		}
+	}
+	void deleteFront() {
+		if(head==null) {
+			System.out.println("linked list is empty...!");
+		}
+		else {
+			System.out.println("node with the value  "+head.data+" had been deleted..!!");
+		    head=head.next;
+		}
+	}
+	void delete() {
+		if(head==null) {
+			System.out.println("LinkedList is empty");
+		}
+		else if(head.next==null) {
+			System.out.println(head.data+"has been deleted");
+			head=null;
+		}
+//		else {
+//			Node temp=head;
+//			while(temp.next.next!=null) {
+//				
+//			}
+//		}
+//		
+	}
+	
+
+}
